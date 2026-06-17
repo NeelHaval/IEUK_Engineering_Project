@@ -20,6 +20,6 @@ broken = (temp_average > 85) | (max_vib > 15)
 maintenance_required = broken[broken].index.tolist()
 
 # Present final result to show turbines which require maintencance
-print("Critical Maintenance required:\n")
+print("Critical Maintenance Required:\n")
 for i in maintenance_required:
     print(f"- {i}")
