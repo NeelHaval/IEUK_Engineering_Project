@@ -10,5 +10,5 @@ COPY . /project
 # Run commands on external local machine to install dependencies
 RUN pip install -r dependencies.txt
 
-# Script may be run freely on machine
+# Script may be run freely on local machine
 CMD ["python", "anomaly_detection.py"]
