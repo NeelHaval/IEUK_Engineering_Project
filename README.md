@@ -10,7 +10,7 @@ maximum vibration exceeds 15 mm/s.
 
 - `AnomalyDetection.py`
 - `Dockerfile`
-- `SystemArtifactDiagram.png`
+- `SystemArchitectureDiagram.png`
 - `EngineeringReport.pdf`
 
 ## All files required in testing and running of the project:
